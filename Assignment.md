@@ -2,18 +2,57 @@
 
 
 
+## Day29
+## Day28
+## Day27
+## Day26
+## Day25
+## Day24
+## Day23
+## Day22
+1. Implement a smart pointer class ArrayPtr for our Array class.
+2. Implement a String class - check basic examples in slides. Make operator=() safe.
+
+## Day21
+1. Implement a class Person (with char name[20], age). Implement a class Car (with model, price, Person *driver). Consider that Person object is allocated dynamically e.g. Car c1("i10", 700000, new Person("Nilesh", 42)); Now implement copy constructor and assignment operator for Person and Car class. 
+2. Implement a Matrix class (int rows, int cols, int **mat - dynamically allocated 2-d array). Implement copy ctor, assign operator, matrix addition, insertion and extraction operators.
+
+## Day20
+1. Distance class - overload+, -, ++, --, <<, >> operators. Also consider adding number (feet) to the distance object. Implement all operators as friend functions.
+2. Time class - overload++, -- operators as member functions.
+
 ## Day19
+1. Implement Singly LinkedList in C++. Make proper use of friend keyword.
+2. Implement the function int divide(int arr[], int arr_size, int numerator_index, int denominator_index). Throw appropriate exceptions like NULL array, Invalid size (negative), Index out of bounds, and Divide by Zero.
+3. Rewrite above function to throw the error of the custom exception class.
+
 ## Day18
+1. Write distance class with data members feet & inches. Write constructors, getter/setter, add() to add two distances. Implement exception handling as appropriate.
+
 ## Day17
+- NA
+
 ## Day16
+1. Implement complete Product shop assignment in modular fashion (.h & .cpp files per class).
+2. Implement complete SalesManager diamond inheritance problem in modular fashion.
+
 ## Day15
+- NA
+
 ## Day14
+1. Design a payment system using an interface Payment. Implement different payment methods like Credit Card, UPI, and Cash, each providing its own payment processing logic.
+2. Create a notification interface with a common method to send messages. Implement Email, SMS, and Push Notification classes using the interface.
+3. Design a bank account interface with deposit, withdrawal, and interest calculation methods. Implement Savings, Current, and Fixed Deposit account classes.
+
 ## Day13
+- NA
+
 ## Day12
 1. Add cout statements in all functions of today's code. Debug all codes step-by-step.
 NOTE: This will teach you one of the C++ implementation -- MSVC or G++.
 
 ## Day11
+- NA
 
 ## Day10
 1. Implement Person (name, age), Employee (id, sal), and Student (roll, marks). Write virtual functions accept() and display() in base and override them in derived classes.
@@ -24,7 +63,6 @@ NOTE: This will teach you one of the C++ implementation -- MSVC or G++.
 ## Day08
 1. How will you create queue using Linked List?
 2. Create two base classes, AcademicResult and SportsResult to store the score of academics and grade of sports. Now create a class StudentProgressCard that stores a student's name and roll number, academic result and sports result. Finally display the progress card.
-
 
 ## Day07 : Inheritance
 1. Implement class Manager inherited from Employee class. Employee has protected field salary and private field id. 
@@ -66,6 +104,3 @@ Notice the order of constructor and destructor calling when you create object of
 1. Implement increment() function in today's time class. Increment seconds by 1. Ensure that max time can be 23:59:59.
 2. Modify display() function in in today's time class to display time with AM/PM (12-hour format).
 3. Write class date with appropriate data members and member functions.
-
-
-
