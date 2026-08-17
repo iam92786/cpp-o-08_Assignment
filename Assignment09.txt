@@ -1,1 +1,0 @@
-1. Implement SalesManager class inherited from Salesman and Manager, which in turn inherited from Employee. Refer the screenshot.

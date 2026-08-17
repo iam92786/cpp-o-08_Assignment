@@ -1,6 +1,0 @@
-1. Write a C++ program to implement a stack using an array. The user should enter the size of the stack at runtime. Implement the following operations:
-- Push an element onto the stack.
-- Pop an element from the stack. (Pops the last pushed element)
-- Display all elements in the stack.
-- Handle stack overflow (when the stack is full) and stack underflow (when the stack is empty). 
-- Provide a menu-driven interface for performing these operations.

@@ -1,6 +1,0 @@
-1. Create a date class with day, month, year fields. Create constructor with default arguments. Also implement getter/setters, accept/display methods.
-2. How can you declare references to the following?
-   - int arr[5];
-   - int fun() { ... };
-3. Implement int& max(int&, int&) that returns a reference to the larger integer, allowing the caller to modify it.
-4. Dynamically allocate an array of "n" dates to store date objects. Accept and display them back.

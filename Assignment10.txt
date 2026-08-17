@@ -1,1 +1,0 @@
-1. Implement Person (name, age), Employee (id, sal), and Student (roll, marks). Write virtual functions accept() and display() in base and override them in derived classes.
