@@ -53,11 +53,15 @@ class emp {
     }
 };
 
-class manager : public emp
+class manager : private emp
 {
     int bonus;
     public:
-    manager() : emp(00, 50000){
+    emp::setEmpId;  //Redeclared in Derived class, So that it can be access inside the main()
+    emp::getEmpId;
+    emp::setEmpSalary;
+    emp::getEmpSalary;
+    manager() : emp(00, 50000){         //member initializer lists
         cout << "constructors: manager" << endl;
     }
     ~manager() {
@@ -73,7 +77,7 @@ class manager : public emp
     }
     int calc_gross_salary() {
         cout << "manager::calc_gross_salary: enter "<< endl;
-        return getEmpSalary()+bonus;
+        return emp::getEmpSalary()+bonus;
     }
 };
 

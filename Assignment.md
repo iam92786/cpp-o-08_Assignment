@@ -4,11 +4,27 @@
 
 ## Day29
 ## Day28
+1. Create a class Employee (id, name, sal). Implement menu driven program to manage employee in a vector. Menu options: Add Emp, Display All Emp, Find Emp, Delete Emp, Save to file, Load from file.
+2. Reimplement above program using STD list.
+3. Store n integers in a vector and find the maximum and minimum elements using vector operations.
+
 ## Day27
+1. Complete LinkedList template class with remaining operations.
+2. Implement Stack and Queue using above LinkedList class.
+
 ## Day26
+1. Implement generic Array class with appropriate members.
+2. How to use our generic Stack<T> class with char str[20];?
+
 ## Day25
+1. Create a class User with fields id, name, email, mobile, passwd. Write user management program that stores users data into file and provide facility to add, display, delete, edit users. Also write a function that inputs email & passwd and check if login is successful.
+
 ## Day24
+1. Create a class CricketPlayer with id, name, runs and wickets members. Write a program that can append new player details in a text file and display all the players info from file.
+
 ## Day23
+1. Implement a Fraction class with fields numerator and denominator. Provide appropriate conversion functions. Overload relevant operators. Implement a function object to check if the given Fraction is proper object or not.
+
 ## Day22
 1. Implement a smart pointer class ArrayPtr for our Array class.
 2. Implement a String class - check basic examples in slides. Make operator=() safe.
