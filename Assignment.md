@@ -1,6 +1,42 @@
 # CPP-08 Assignment
 
+## Day31
+## Day30
+0. Solved Leetcode problems.
+1. Given the marks of students, use a priority_queue to print the top 3 highest marks.
+2. Given n integers, remove all duplicates and print the remaining elements in sorted order.
+3. Given a list of words, find the frequency of each word and print the words in alphabetical order.
+4. Given a map of student names and marks, print the student with the highest mark.
+5. Product Management Using C++ STL
+Write a menu-driven C++ program that reads product details from a CSV file into a vector of product objects/structures. Provide options to perform operations such as display, sort, search, update, delete, and find the product with the highest/lowest price.
 
+Sample products.csv
+ID,Name,Category,Price,Quantity
+101,Laptop,Electronics,55000,10
+102,Mouse,Electronics,800,25
+103,Keyboard,Electronics,1500,15
+104,Notebook,Stationery,120,50
+105,Pen,Stationery,20,100
+106,Headphones,Electronics,2500,12
+107,Backpack,Accessories,1800,20
+108,Water Bottle,Accessories,600,30
+109,Desk Lamp,Home,1200,8
+110,Calculator,Stationery,750,18
+
+* Menu Options
+Display all products
+Sort products by price
+Sort products by name
+Search for a product by ID
+Search for products by category
+Delete a product by ID
+Update product quantity
+Find the product with the highest price
+Find the product with the lowest price
+Display products whose quantity is below a given value
+Exit
+
+STL Requirement: Use a vector as the main container and appropriate STL algorithms such as sort, find, remove_if, etc., wherever applicable.
 
 ## Day29
 ## Day28
